@@ -1,0 +1,51 @@
+body {
+  background-color:  #24353f;
+}
+
+
+.container{
+  width: 50%;
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.container h1 ,i{
+  color:  #17A2B8;
+
+}
+.btn{
+  border: 1px solid #17a2b8;
+  color: #17a2b8;
+  background-color: transparent;
+  
+}
+.btn:hover{
+
+  background-color: #17a2b8; 
+  color: #ffffff;
+}
+.para3{
+  font-size: 1.15rem;
+}
+.container  p a{
+  text-decoration: none;
+}
+.container  p a:hover{
+text-decoration:underline;
+}
+.para p {
+  color: #DC3545;
+  text-align: center;
+}
+
+.para {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+.p2 {
+  font-size: 1.15rem;
+}

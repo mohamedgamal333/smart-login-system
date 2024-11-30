@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="icon" href="./images/system-icon-png-17.jpg">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+
+<body>
+    <div class="container px-5  mt-5 shadow-lg">
+        <h1 class="text-center pt-5">Smart Login System</h1>
+
+        <div class="input-group mt-4">
+            <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
+            <input type="text" id="userName" class="form-control" placeholder="Enter your name">
+        </div>
+
+        <div class="input-group mt-4">
+            <span class="input-group-text"><i class="fa-regular fa-envelope"></i></span>
+            <input type="email" id="userEmail" class="form-control" placeholder="Enter your email">
+        </div>
+        <p id="emailValidationMessage" class="text-danger d-none mt-1 ">Please enter a valid email address.</p>
+
+
+
+        <div class="input-group mt-4">
+            <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" id="userPassword" class="form-control" placeholder="Enter your password">
+            <span class="input-group-text" onclick="togglePasswordVisibility()">
+                <i class="fa-solid fa-eye "></i>
+            </span>
+        </div>
+
+        <button class="btn  w-100  mt-5" onclick="registerUser()">Sign Up</button>
+        <p class="text-center fw-bold mt-4 para3 text-white py-4">You have an account? <a class="text-white"
+                href="./login.html"> Sign In</a></p>
+
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
